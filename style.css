@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+
+}
+.space-between{
+    justify-content: space-between;
+   
+}
+
+.list-style{
+    list-style: none;
+}
+.gap-1rem{
+   gap: 1rem;
+}
+.header-section{
+   padding: 1rem 6rem 6rem;
+    color: white;
+}
+.image-placeholder{
+    width: 40rem;
+    display: grid;
+    place-content: center;
+    background-color: gray;
+}
+.awesome{
+    width: 20rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #F9F8FA;
+}
+.header{
+    margin-bottom: 4rem;
+}
+.para{
+    width: 25rem;
+    opacity: 70%;
+}
+.signup{
+    margin-top: 1rem;
+    padding: 0.2rem 2rem;
+    color: inherit;
+    background-color: #3882F6;
+    font-weight: 800;
+    border-radius: 0.5rem;
+    border: 0;
+    cursor: pointer;
+}
+.text-center{
+    text-align: center;
+}
+.second-section{
+    margin: 2rem auto 4rem;
+    height: 20rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.illustation-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+}
+.illustation{
+    width: 12rem;
+    height: 12rem;
+    border: 2px solid #3882F6;;
+    border-radius: 0.6rem;
+}
+.illustation-text{
+    margin-top: 2px;
+    width: 10rem;
+    font-size: 0.9rem;
+    text-align: center;
+    opacity: 70%;
+}
+
+.second-section-illus{
+    margin-top: 2rem;
+}
+.gap-2rem{
+    gap: 2rem;
+}
+.third-section{
+    margin: 2rem auto 4rem;
+    height: 20rem;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-p{
+    width: 45rem;
+   font-size: 2rem;
+   font-style: italic;
+   opacity: 70%;
+}
+.quote-author{
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    margin-inline-end: 2rem;
+}
+
+.fourth-section{
+    height: 20rem;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+.fourth-section-div{
+    width: 70vw;
+    height: 10rem;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.call-button{
+    color: inherit;
+    background-color: inherit;
+    padding: 0.6rem 2rem;
+    border-radius: 0.5rem;
+}
+.bold{
+    font-weight: 900;
+}
+.opacity-70{
+    opacity: 70%;
+}
+
+.footer{
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 5rem;
+    font-weight: 900;
+}
+
+.dark-background{
+    background-color: #1F2937;
+}
